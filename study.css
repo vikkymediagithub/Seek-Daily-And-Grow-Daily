@@ -57,13 +57,13 @@ h6 {
 
 #services .title span {
 	font-size: 46px;
-	color: #FF5722;
+	color: #08abf7;
 	font-weight: 600;
 }
 
 #services .btn-primary {
 	color: #fff;
-	background-color: #FF5722;
+	background-color: #08abf7;
 	border: none;
 	font-size: 14px;
 	letter-spacing: 1px;
@@ -101,8 +101,8 @@ h6 {
 .card-items .card .card-body i {
 	border-radius: 6px;
 	font-size: 31px;
-	color: #ff5722;
-	background-color: #ff57221c;
+	color: #fff;
+	background-color: #08abf7;
 	width: 50px;
 	height: 50px;
 	display: flex;
