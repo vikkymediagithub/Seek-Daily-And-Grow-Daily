@@ -28,6 +28,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  
 </head>
 
 <body>
@@ -80,6 +81,7 @@
               <li><a href="#">Memory Verses</a></li>
             </ul>
           </li>
+          <li><a class="  nav-link scrollto" href="#">Subscribe</a></li>
           <li><a class=" getstarted scrollto nav-link scrollto" href="contact.html">Contact</a></li>
           <li><a class="getstarted scrollto" href="login.html">Sign Up</a></li>
         </ul>
@@ -451,6 +453,20 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <!-- other script -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <!-- popover script -->
+  <script>
+    document.addEventListener("DOMContentLoaded", function(){
+        var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
+        var popoverList = popoverTriggerList.map(function(element){
+            return new bootstrap.Popover(element);
+        });
+    });
+    </script>
 
 </body>
 
