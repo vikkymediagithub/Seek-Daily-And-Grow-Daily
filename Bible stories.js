@@ -3,3 +3,5 @@ $(window).bind("load resize slid.bs.carousel", function() {
     $(".controllers").height( imageHeight );
     console.log("Slid");
   });
+
+//   Pagination function
