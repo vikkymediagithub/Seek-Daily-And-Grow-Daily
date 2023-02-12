@@ -1,13 +1,4 @@
-/**
-* Template Name: Arsha - v4.10.0
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
@@ -1626,7 +1617,7 @@ section {
 --------------------------------------------------------------*/
 .breadcrumbs {
   padding: 15px 0;
-  background: #f3f5fa;
+  background: #37517e;
   min-height: 40px;
   margin-top: 72px;
 }
@@ -1640,10 +1631,10 @@ section {
 .breadcrumbs h2 {
   font-size: 28px;
   font-weight: 600;
-  color: #37517e;
+  color: #fff;
 }
 
-.breadcrumbs ol {
+.breadcrumbs ol{
   display: flex;
   flex-wrap: wrap;
   list-style: none;
@@ -1654,6 +1645,7 @@ section {
 
 .breadcrumbs ol li+li {
   padding-left: 10px;
+  color: #fff;
 }
 
 .breadcrumbs ol li+li::before {
