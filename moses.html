@@ -413,6 +413,20 @@
   <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
   <script src="moses.js"></script>
 
+  <script>
+    $("#read-more").click(function () {
+      $(".hidden").toggleClass("show");
+      if ($(this).text() == '[ Read More ]') {
+        $(this).text('[ Read Less ]');
+      } else {
+        $(this).text('[ Read More ]');
+      }
+    });
+    $("#img-large").click(function () {
+      $("#img-large").toggleClass("img-larger");
+    });
+  </script>
+
 </body>
 
 </html>
