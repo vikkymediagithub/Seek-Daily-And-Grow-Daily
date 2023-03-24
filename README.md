@@ -1,2 +1,2 @@
-# Bible-Random-Quote-with-Revelation
-Bible Quotes and revelations
+# Seek-Daily-And-Grow-Daily
+Seek the kingdom of God
