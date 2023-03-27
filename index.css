@@ -1,11 +1,13 @@
- .blog .carousel-indicators {
+
+
+.blog .carousel-indicators {
       left: 0;
       top: auto;
       bottom: -40px;
   
   }
   
-  /* The colour of the indicators */
+  /* The color of the indicators */
   .blog .carousel-indicators li {
       background: #a3a3a3;
       border-radius: 50%;
